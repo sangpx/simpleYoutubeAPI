@@ -1,0 +1,57 @@
+body {
+  background-color: #202020;
+  color: white;
+}
+
+.youtube-search-container {
+  input {
+    outline: none;
+    min-width: 360px;
+    padding: 5px 10px;
+    border: none;
+    margin-bottom: 5px;
+  }
+  button {
+    outline: none;
+    border-left: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #e2e2e2;
+    border: none;
+  }
+  .ytb-result {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 95px;
+
+    .left {
+      
+      width: 40%;
+      padding: 0;
+
+      .iframe-yt {
+        width: 65%;
+        height: 200px;
+      }
+    }
+    .right {
+      
+      width: 50%;
+      text-align: left;
+      padding: 5px;
+      font-size: 14px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .title {
+          font-size: 18px;    
+          font-weight: 600;
+         }
+    }
+
+    
+  }
+}
